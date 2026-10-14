@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "name": "Lantern Bay Federal Credit Union"
+  },
+  "theme": {
+    "mode": "dark",
+    "colors": {
+      "primary": "#3FB8AF",
+      "onPrimary": "#062421",
+      "background": "#0F1519",
+      "surface": "#1A232A",
+      "text": "#E6EDF2",
+      "textMuted": "#94A3AE"
+    }
+  },
+  "menu": {
+    "quickActions": ["transfer", "deposit", "card-controls", "call"],
+    "sections": [
+      {
+        "id": "accounts",
+        "title": "Accounts & Payments",
+        "items": [
+          { "id": "sign-in", "label": "Sign In to Online Banking", "icon": "lock", "type": "web", "url": "https://example.com/online-banking" },
+          { "id": "transfer", "label": "Transfer", "icon": "swap-horiz", "type": "web", "url": "https://example.com/transfer" },
+          { "id": "deposit", "label": "Deposit", "icon": "photo-camera", "type": "web", "url": "https://example.com/deposit" },
+          { "id": "bill-pay", "label": "Pay Bills", "icon": "receipt", "type": "web", "url": "https://example.com/bill-pay" },
+          { "id": "statements", "label": "Statements & Documents", "icon": "description", "type": "web", "url": "https://example.com/statements" }
+        ]
+      },
+      {
+        "id": "cards",
+        "title": "Cards",
+        "items": [
+          { "id": "card-controls", "label": "Card Controls", "icon": "credit-card", "type": "web", "url": "https://example.com/cards" },
+          { "id": "lost-card", "label": "Report a Lost or Stolen Card", "icon": "report", "type": "link", "url": "tel:+12075550177" }
+        ]
+      },
+      {
+        "id": "borrow",
+        "title": "Borrow",
+        "items": [
+          { "id": "home-loans", "label": "Home Loans", "icon": "home", "type": "web", "url": "https://example.com/home-loans" },
+          { "id": "auto-loans", "label": "Auto Loans", "icon": "directions-car", "type": "web", "url": "https://example.com/auto-loans" },
+          {
+            "id": "rates",
+            "label": "Today's Rates",
+            "icon": "trending-up",
+            "type": "content",
+            "title": "Today's Rates",
+            "body": "## Certificates\n\n| Term | APY |\n| --- | --- |\n| 6 months | 3.75% |\n| 12 months | 4.10% |\n| 24 months | 3.90% |\n\n## Loans\n\n| Loan | APR from |\n| --- | --- |\n| 30-year mortgage | 6.25% |\n| New auto | 5.25% |\n\n*Demo rates for illustration only.*"
+          }
+        ]
+      },
+      {
+        "id": "support",
+        "title": "Support",
+        "items": [
+          { "id": "call", "label": "Call Member Services", "icon": "phone", "type": "link", "url": "tel:+12075550100" },
+          { "id": "locator", "label": "Find an ATM", "icon": "local-atm", "type": "link", "url": "geo:0,0?q=ATM" },
+          {
+            "id": "about",
+            "label": "About Lantern Bay",
+            "icon": "info",
+            "type": "content",
+            "title": "About Lantern Bay",
+            "body": "## Serving the coast since 1952\n\nLantern Bay Federal Credit Union is a member-owned, not-for-profit cooperative.\n\n*Fictional credit union for demonstration.*"
+          }
+        ]
+      }
+    ]
+  }
+}

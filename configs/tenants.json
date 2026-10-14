@@ -1,0 +1,6 @@
+{
+  "tenants": [
+    { "id": "cedar-hollow", "name": "Cedar Hollow Credit Union", "configUrl": "cedar-hollow.json" },
+    { "id": "lantern-bay", "name": "Lantern Bay Federal Credit Union", "configUrl": "lantern-bay.json" }
+  ]
+}

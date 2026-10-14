@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "app": {
+    "name": "Cedar Hollow Credit Union"
+  },
+  "theme": {
+    "mode": "light",
+    "colors": {
+      "primary": "#1F5C3A",
+      "onPrimary": "#FFFFFF",
+      "background": "#F4F7F5",
+      "surface": "#FFFFFF",
+      "text": "#14231A",
+      "textMuted": "#5E6E64"
+    }
+  },
+  "menu": {
+    "quickActions": ["sign-in", "transfer", "deposit", "locator"],
+    "sections": [
+      {
+        "id": "banking",
+        "title": "Banking",
+        "items": [
+          { "id": "sign-in", "label": "Sign In", "icon": "lock", "type": "web", "url": "https://example.com/online-banking" },
+          { "id": "transfer", "label": "Transfer", "icon": "swap-horiz", "type": "web", "url": "https://example.com/transfer" },
+          { "id": "deposit", "label": "Deposit a Check", "icon": "photo-camera", "type": "web", "url": "https://example.com/deposit" },
+          { "id": "bill-pay", "label": "Pay Bills", "icon": "receipt", "type": "web", "url": "https://example.com/bill-pay" },
+          { "id": "send-money", "label": "Send Money to People", "icon": "people", "type": "web", "url": "https://example.com/send-money" }
+        ]
+      },
+      {
+        "id": "cards",
+        "title": "Cards",
+        "items": [
+          { "id": "card-controls", "label": "Lock or Unlock a Card", "icon": "credit-card", "type": "web", "url": "https://example.com/cards" },
+          { "id": "travel-notice", "label": "Set a Travel Notice", "icon": "flight", "type": "web", "url": "https://example.com/travel-notice" },
+          { "id": "lost-card", "label": "Report a Lost Card", "icon": "report", "type": "link", "url": "tel:+19185550142" }
+        ]
+      },
+      {
+        "id": "borrowing",
+        "title": "Loans & Membership",
+        "items": [
+          { "id": "apply-loan", "label": "Apply for a Loan", "icon": "directions-car", "type": "web", "url": "https://example.com/loans" },
+          {
+            "id": "rates",
+            "label": "Rates",
+            "icon": "trending-up",
+            "type": "content",
+            "title": "Current Rates",
+            "body": "## Savings\n\n| Account | APY |\n| --- | --- |\n| Share Savings | 0.25% |\n| Money Market | 2.10% |\n| 12-Month Certificate | 4.00% |\n\n## Loans\n\n| Loan | APR from |\n| --- | --- |\n| New Auto | 5.49% |\n| Used Auto | 5.99% |\n| Personal | 9.99% |\n\n*Demo rates for illustration only.*"
+          },
+          { "id": "join", "label": "Become a Member", "icon": "person-add", "type": "web", "url": "https://example.com/join" }
+        ]
+      },
+      {
+        "id": "help",
+        "title": "Help",
+        "items": [
+          { "id": "locator", "label": "Branches & ATMs", "icon": "place", "type": "link", "url": "geo:0,0?q=ATM" },
+          { "id": "call", "label": "Call Us", "icon": "phone", "type": "link", "url": "tel:+19185550100" },
+          { "id": "email", "label": "Email Us", "icon": "email", "type": "link", "url": "mailto:help@example.com" },
+          {
+            "id": "routing",
+            "label": "Routing Number",
+            "icon": "tag",
+            "type": "content",
+            "title": "Routing Number",
+            "body": "Our routing number is **000000000**.\n\nUse it with your account number to set up direct deposit or automatic payments.\n\n*Demo number for illustration only.*"
+          },
+          {
+            "id": "hours",
+            "label": "Hours",
+            "icon": "schedule",
+            "type": "content",
+            "title": "Hours",
+            "body": "## Branches\n\n- Monday to Friday: 9am to 5pm\n- Saturday: 9am to noon\n- Sunday: closed\n\n## Phone support\n\n- Monday to Saturday: 8am to 8pm"
+          },
+          {
+            "id": "faq",
+            "label": "FAQs",
+            "icon": "help-outline",
+            "type": "content",
+            "title": "Frequently Asked Questions",
+            "body": "## How do I reset my password?\n\nTap **Sign In**, then **Forgot password**.\n\n## Is mobile check deposit free?\n\nYes, for all members.\n\n## What if my card is lost or stolen?\n\nTap **Report a Lost Card** to call us any time, day or night."
+          }
+        ]
+      }
+    ]
+  }
+}
